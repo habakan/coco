@@ -1,0 +1,23 @@
+{
+  "name": "@cashu/coco-durable-objects",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
+    "@cloudflare/workers-types": "^5.20260828.1",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.127.0",
+    "@cashu/coco-adapter-tests": "2.0.0",
+    "@cashu/coco-sql-storage": "2.0.0"
+  },
+  "peerDependencies": {
+    "@cashu/cashu-ts": "5.0.0-rc.4",
+    "@cashu/coco-core": "2.0.0",
+    "typescript": "^5"
+  }
+}

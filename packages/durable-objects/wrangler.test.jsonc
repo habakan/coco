@@ -1,0 +1,7 @@
+{
+  "name": "coco-durable-objects-test",
+  "main": "./src/test/worker.ts",
+  "compatibility_date": "2026-08-01",
+  "durable_objects": { "bindings": [{ "name": "WALLET", "class_name": "TestWalletObject" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["TestWalletObject"] }],
+}
